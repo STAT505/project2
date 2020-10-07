@@ -1,0 +1,27 @@
+---
+title: "Project2"
+author: "Andy Hoegh"
+date: "10/7/2020"
+output: pdf_document
+bibliography: refs.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This is an R Markdown document template for project 2. You can use this bibtek to automatically generate references, for example the class textbook is @gelman2020.
+
+## Data Overview
+
+## Statistical Procedures
+
+## Results
+
+## Discussion
+
+### References
+
+\
