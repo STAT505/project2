@@ -1,0 +1,71 @@
+---
+title: "Project 2 Info"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height=4, fig.width=10)
+options(show.signif.stars = FALSE)
+```
+
+
+## Project Overview
+
+The second course project will use a dataset of your choice to explore regression modeling. You are welcome to work individually or with one partner for this project. For the report, you should identify a research question of interest to explore with data visualization and regression modeling. I am providing a curated dataset that looks at the distance a butterfly travels before landing. I have filtered the dataset to contain a single measurement for each butterfly and removed some additional predictors. The curated version is available at [https://raw.githubusercontent.com/STAT505/project2/master/butterfly.csv](https://raw.githubusercontent.com/STAT505/project2/master/butterfly.csv). Additional information about the study design and the data can be found from the references below.
+
+- [https://www.sciencedirect.com/science/article/pii/S2352340919309667](https://www.sciencedirect.com/science/article/pii/S2352340919309667)
+- [https://data.mendeley.com/datasets/kpcgkfmpv8/1](https://data.mendeley.com/datasets/kpcgkfmpv8/1)
+
+If you choose an alternative dataset, make sure that the response variable is continuous and there are at least two other predictors related to the response variable in the dataset. If you need another location to find datasets, the data in brief journal is a good place to look: [https://www.sciencedirect.com/journal/data-in-brief](https://www.sciencedirect.com/journal/data-in-brief).
+
+The report should contain sections such as introduction, data overview + data visualization, statistical procedures, and results and discussion. The following is a rubric that will be used to assess the report. 
+All items are graded with the following scheme, where some have multipliers:
+
+1. __No Credit__: Criterion was not addressed or was written in a way that was not understandable.
+
+2. __Beginning__:  Ideas are not clear and supporting ideas are not presented.
+
+3. __Developing__: Ideas are identified but not well supported and developed or are minimally supported and developed.
+
+4. __Advanced__: Ideas are clearly identified and are adequately supported and developed.
+
+| __Report generalities__ | __Points__  |
+|:------------------------|---:|
+|Spelling, grammar, writing clarity | 12   |
+|Paragraphs, section labels | 4   |
+|Appendix with complete code |  4  |
+|Figures (reporting, labels, captions) included in text|  4  |
+|Citations for papers and packages used | 4   |
+|Acknowledgments for other resources | 4   |
+
+| __Introduction__ | __Points__  | 
+|:------------------------|---:|
+|Project motivation |  4 |
+|Sample size(s) |  4 |
+|Data source and study design | 4  |
+|Research question | 4  |
+
+| __Data Overview + Data Visualization__ | __Points__  | 
+|:------------------------|---:|
+|Variables with units and descriptive statistics |  4    |
+|Titles, Labels, and Captions | 4  |
+|Figure Clarity | 4  | 
+|Figure Quality | 4  |
+
+| __Statistical Procedures__ | __Points__  |
+|:------------------------|---|---:|
+|Define model to fit (with complete notation) | 8  |
+|Defense of model choice| 4 |
+|Discuss model fitting procedure |  4 |
+
+| __Results__ | __Points__  | 
+|:------------------------|---:|
+|State and assess model assumptions |8   |
+|Concise evidence statement for estimated model | 4  |
+|Summarize estimates from final model (intervals) |4   |
+
+| __Discussion__ | __Points__  | 
+|:------------------------|---:|
+|Discuss Results in the context of the research question |  4 |
+|Scope of Inference: how can the results be generalized? | 4  |
